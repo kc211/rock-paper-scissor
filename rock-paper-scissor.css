@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: arial;
+}
+.title{
+    font-size:30px;
+    font-weight: bold;
+}
+.img-button{
+    height: 50px;
+}
+.move-button{
+    background-color: transparent;
+    border: 3px solid white;
+    height:120px;
+    width:120px;
+    margin-right:10px;
+    border-radius:60px ;
+    cursor: pointer;
+}
+.result{
+font-size:30px;
+font-weight:bold;
+margin-top:30px;
+}
+.score{
+margin-top:50px;
+}
+.reset-button
+{
+border:none;
+background-color: white;
+font-size:15px;
+padding:8px 15px;
+
+cursor:pointer;
+}

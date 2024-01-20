@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="rock-paper-scissor.css">
+</head>
+
+<body>
+    <p class="title">Rock-Paper-Scisscor</p>
+    <button onclick="rock()" class="move-button"><img src="rock-emoji.png" alt="rock" class="img-button"></button>
+    <button onclick="paper()" class="move-button"><img src="paper-emoji.png" alt="paper" class="img-button"></button>
+    <button onclick="scissor()" class="move-button"><img src="scissor-emoji.png" alt="scissors" class="img-button"></button>
+    <p class="js-result result"></p>
+    <p class="js-moves">
+       
+    </p>
+    <p class="js-score score"></p>
+    <button onclick="reset()" class="reset-button">Reset Score</button>
+    <!-- 
+        algorithm 1:
+        when we click a button
+        1)The computer generates random move
+        2)The computer compares the move to get the result
+        3)display the result in popup
+     -->
+    <!-- 
+        algorithm 2:
+        create a reset button
+        1) after creating display the score of the wins losses and ties
+        2) reste button must reset the score again to 0
+      -->
+    <script src="rock-paper-scissor.js"></script>
+</body>
+
+</html>
